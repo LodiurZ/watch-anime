@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "watch-anime"
+version = "0.1.0"
+description = ""
+authors = ["Даниил Шадрин <garryop73@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+xmltodict = "^0.13.0"
+requests = "^2.32.3"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.11.2"
+pylint = "^3.2.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
